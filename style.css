@@ -1,0 +1,56 @@
+@import url("styles/header.css");
+@import url("styles/carrossel.css");
+
+:root {
+    background: linear-gradient(110.4deg, rgb(247, 112, 15) 6.4%, rgb(248, 50, 88) 100.2%);
+    --branco: #FFFFFF;
+    --laranja: #eb9b00;
+    --fonte-principal: "Permanent Marker";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: 'Poppins', sans-serif;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola-titulo{
+    text-align: center;
+}
+
+
+
+.escola{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.estudante{
+    
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   color: #551b05;
+}

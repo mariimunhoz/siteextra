@@ -1,0 +1,51 @@
+.cabeçalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/TWICElog.png");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+  }
+
+  .container__botao{
+display: none;
+  }
+    
+  .lista-menu__titulo,
+.lista-menu__item {
+  padding: 1em;
+  background-color: var(--branco);
+}
+
+.lista-menu__titulo {
+    color: var(--laranja);
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .container__titulo,
+    .container__titulo--negrito {
+      font-family: var(--fonte-principal);
+      font-size: 35px;
+    }
+
+  }
